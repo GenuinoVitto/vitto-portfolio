@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.container {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar-logo {
+  flex: 0 0 25%;
+  text-align: left;
+  color: #05054e;
+}
+
+.navbar-links {
+  flex: 0 0 75%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 1rem;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #05054e;
+}
+
+.content {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+
+.content-greeting {
+  flex: 0 0 50%;
+  font-size: 40px;
+}
+.vitto-img {
+  object-fit: cover;
+  width: 50%;
+  border-radius: 30px;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.1);
+}
