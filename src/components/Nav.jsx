@@ -8,10 +8,13 @@ function Nav() {
                     <h1>Vitto Genuino</h1>
                 </div>
                 <div className="navbar-links">
-                    <a href="/">Home</a>
+                  <button>
+                    Download Resume
+                  </button>
+                    {/* <a href="/">Home</a>
                     <a href="/">Projects</a>
                     <a href="/">About</a>
-                    <a href="/">Contact</a>
+                    <a href="/">Contact</a> */}
                 </div>
             </div>
         </div>

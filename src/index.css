@@ -80,3 +80,24 @@
   border-radius: 30px;
   box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.1);
 }
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
